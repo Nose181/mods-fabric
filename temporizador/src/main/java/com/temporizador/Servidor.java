@@ -217,7 +217,7 @@ public class Servidor {
     }
 
     private static void difundir() {
-        Net.CHANNEL.send(paquete());
+        Red.todos(servidor, paquete());
     }
 
     /** Acepta 90 (segundos), 5m, 1h30m, 45s, 2:30 (min:seg) y 1:02:03 (h:min:seg). Devuelve -1 si no es valido. */
