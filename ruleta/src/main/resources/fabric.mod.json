@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "ruleta",
+  "version": "${version}",
+  "name": "Ruleta de Retos",
+  "description": "Escribe /ruleta: una ruleta animada gira en la pantalla de todos y sale un reto. Quien no lo cumpla, muere.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.ruleta.RuletaMod"],
+    "client": ["com.ruleta.client.RuletaClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "EXE",
+    "XTX",
+    "EXE"
+  ],
+  "key": {
+    "T": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "X": {
+      "item": "minecraft:glistering_melon_slice"
+    },
+    "E": {
+      "item": "minecraft:emerald"
+    }
+  },
+  "result": {
+    "id": "totemsplus:totem_vida",
+    "count": 1
+  }
+}

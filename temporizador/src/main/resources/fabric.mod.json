@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "temporizador",
+  "version": "${version}",
+  "name": "Temporizador",
+  "description": "Escribe /temporizador 5m y aparece una cuenta regresiva en la pantalla de todos los jugadores.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.temporizador.TemporizadorMod"],
+    "client": ["com.temporizador.client.TemporizadorClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
