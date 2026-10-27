@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "mochilas",
+  "version": "${version}",
+  "name": "Mochilas",
+  "description": "Sacos y mochilas para guardar cosas. Clic derecho (o la tecla B) para abrirlas; llevan sus cosas adentro.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.mochilas.MochilasMod"],
+    "client": ["com.mochilas.client.MochilasClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
