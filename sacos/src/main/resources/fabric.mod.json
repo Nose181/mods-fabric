@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "sacos",
+  "version": "${version}",
+  "name": "Sacos",
+  "description": "Un saco para guardar cosas (27 espacios). Clic derecho o la tecla B para abrirlo; lleva sus cosas adentro.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.sacos.SacosMod"],
+    "client": ["com.sacos.client.SacosClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
