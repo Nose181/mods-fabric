@@ -10,7 +10,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-           mod: [ruleta, temporizador, totems, mochilas]
+           mod: [ruleta, temporizador, totems, sacos]
     steps:
       - uses: actions/checkout@v4
 
